@@ -5,14 +5,13 @@ import time
 import webbrowser
 import feedparser
 
-d = feedparser.parse(r'/Users/aregee/Workspace/rahulgaur/output/feeds/all.atom.xml')
+d = feedparser.parse(r'/Users/aregee/Workspace/myblog/diy/feeds/all.atom.xml')
 
 def getaccesstoken():
     """
     getaccesstoken()->ACCESS_TOKEN
     Presents user with the choice of creating a token or supplying
-    one to the script which it uses later to fetch wall posts and
-    comment on them.
+    one to the script.
     """
     print ("The script needs your ACCESS TOKEN.\n"
            "What would you like to do?\n"
@@ -39,7 +38,7 @@ def getaccesstoken():
                     ",read_stream")
 
 
-    time.sleep(3)
+    time.sleep(10)
     webbrowser.open("http://developers.facebook.com/tools/explorer")
     access_token = raw_input("\nEnter the TOKEN string obtained from API "
                              "explorer page: ")

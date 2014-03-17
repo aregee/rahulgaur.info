@@ -1,4 +1,4 @@
-Title: Python Script to post latest blog post on facebook 
+Title: Python Script to share url of most recent blog 
 Date: 2014-03-17 12:30
 Tags: Pelican is awesome, Facebook, pelican
 slug: pelican-facebook-post
@@ -168,7 +168,4 @@ Now in order to invoke the script after every new build or post addition.
             local('python fb_extn.py') 
 
 
-
-
-
-
+[Source](https://github.com/aregee/rahulgaur.info)

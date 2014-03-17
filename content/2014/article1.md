@@ -10,11 +10,11 @@ This Blog entry should have been posted to facebook ;)
 
 ###TODO: 
 
-1. Clean Up and Proof Read the exisiting post.
+1. Clean Up and Proof Read the exisiting blog post.
 
-2. Don't complete the first task.
+2. Ignore the first task.
 
 >> The sun is the same in a relative way, but you're older
 >> Shorter of breath and one day closer to death.
 
-3. Move the Source from OpenShift to Gh-Pages 
+
